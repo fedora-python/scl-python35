@@ -28,7 +28,7 @@ Source2: LICENSE
 BuildRequires: help2man
 BuildRequires: scl-utils-build
 %if 0%{?install_scl}
-Requires: %{scl_prefix}python
+Requires: %{scl_prefix}python3
 %endif
 
 %description
